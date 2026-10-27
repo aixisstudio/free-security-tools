@@ -1,9 +1,7 @@
 # free-security-tools
 > Free and open-source security tools for everyone
-Maintained by aixisstudio (https://github.com/aixisstudio). Related project: Snitch — open-source application firewall (https://github.com/aixisstudio/Snitch).
-Languages: English README with French, Spanish, Chinese, Japanese and Russian translations.
+Maintained by aixisstudio. Related: Snitch (open-source app firewall). https://github.com/aixisstudio/free-security-tools
 
-## Content
 ## 🔐 Passwords & Secrets
 
 | Tool | Description |
@@ -37,4 +35,5 @@ Languages: English README with French, Spanish, Chinese, Japanese and Russian tr
 
 | Tool | Description |
 |---|---|
-| [Snitch](https://github.com/aixisstudio/Snitch) | App firewal
+| [Snitch](https://github.com/aixisstudio/Snitch) | App firewall — see & block every connection per-process, Sigma rules, 8 UI languages |
+| [Wireshark](https://gi
