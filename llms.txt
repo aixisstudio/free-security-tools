@@ -1,0 +1,40 @@
+# free-security-tools
+> Free and open-source security tools for everyone
+Maintained by aixisstudio (https://github.com/aixisstudio). Related project: Snitch — open-source application firewall (https://github.com/aixisstudio/Snitch).
+Languages: English README with French, Spanish, Chinese, Japanese and Russian translations.
+
+## Content
+## 🔐 Passwords & Secrets
+
+| Tool | Description |
+|---|---|
+| [KeePassXC](https://github.com/keepassxreboot/keepassxc) | Offline password manager — the community standard |
+| [Bitwarden](https://github.com/bitwarden) | Full-stack password manager you can self-host |
+| [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Lightweight Rust Bitwarden-compatible server |
+| [pass](https://www.passwordstore.org/) | The Unix password manager — gpg + git |
+| [age](https://github.com/FiloSottile/age) | Modern, simple file encryption |
+| [GnuPG](https://gnupg.org/) | The classic OpenPGP suite |
+
+## 📱 Two-Factor Auth
+
+| Tool | Description |
+|---|---|
+| [Aegis](https://github.com/beemdevelopment/Aegis) | Open-source Android 2FA app |
+| [Ente Auth](https://github.com/ente-io/ente) | End-to-end encrypted authenticator |
+| [2FAS](https://github.com/twofas) | Free authenticator for iOS/Android |
+
+## 🛡️ Endpoint & Malware Defense
+
+| Tool | Description |
+|---|---|
+| [ClamAV](https://github.com/Cisco-Talos/clamav) | Open-source antivirus engine |
+| [YARA](https://github.com/VirusTotal/yara) | Pattern-matching for malware identification |
+| [Lynis](https://github.com/CISOfy/lynis) | System hardening auditor |
+| [OpenSCAP](https://github.com/OpenSCAP/openscap) | Security compliance scanner |
+| [Chkrootkit](https://github.com/Magentah/chkrootkit) | Local rootkit detection |
+
+## 🌐 Network Security
+
+| Tool | Description |
+|---|---|
+| [Snitch](https://github.com/aixisstudio/Snitch) | App firewal
