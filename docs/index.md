@@ -83,18 +83,34 @@ Free and open-source security tools for everyone
 | [DVWA](https://github.com/digininja/DVWA) | Damn Vulnerable Web App |
 | [picoCTF](https://picoctf.org/) | Beginner-friendly CTF |
 
+## 🧑‍💻 Dev Security Tools
 
-## ❓ Frequently Asked Questions
+| Tool | Description |
+|---|---|
+| [git-secrets](https://github.com/awslabs/git-secrets) | Stops you committing credentials |
+| [truffleHog](https://github.com/trufflesecurity/trufflehog) | Find leaked keys in git history |
+| [Gitleaks](https://github.com/gitleaks/gitleaks) | Fast secret scanner for repos |
+| [Semgrep](https://github.com/semgrep/semgrep) | Code-level security patterns |
+| [Bearer](https://github.com/bearer/bearer) | Data-security SAST |
+| [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) | Vulnerable-dependency scanner |
+| [Syft](https://github.com/anchore/syft) | SBOM generation |
+| [Checkov](https://github.com/bridgecrewio/checkov) | IaC security scanning |
 
-**What are the best free security tools?**
+## 🔥 Threat Intelligence
+| Tool | Description |
+|---|---|
+| [MISP](https://github.com/MISP/MISP) | Threat intel sharing platform |
+| [OpenCTI](https://github.com/OpenCTI-Platform/opencti) | Cyber threat intel management |
+| [Yeti](https://github.com/yeti-platform/yeti) | IOC management |
+| [AbuseIPDB](https://www.abuseipdb.com/) | Community IP abuse database |
 
-KeePassXC, Bitwarden, Wireshark, Nmap, Snitch, VeraCrypt, CrowdSec and Trivy are widely recommended free security tools.
-
-**Is there a free alternative to Little Snitch?**
-
-Yes — Snitch and OpenSnitch are free open-source alternatives that monitor and block outbound connections.
-
+## 🏠 Home & Small-Office
+| Tool | Description |
+|---|---|
+| [Home Assistant + Frigate](https://frigate.video/) | NVR with AI object detection |
+| [Nextcloud](https://github.com/nextcloud/server) | Self-hosted files replacing Dropbox |
+| [Immich](https://github.com/immich-app/immich) | Self-hosted Google Photos |
+| [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Self-hosted Bitwarden |
 
 ---
-
-Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Snitch](https://github.com/aixisstudio/Snitch), the open-source application firewall. See also: [all resources](https://aixisstudio.github.io).
+Maintained by [aixisstudio](https://github.com/aixisstudio).
