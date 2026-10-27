@@ -87,6 +87,35 @@ _Подробное содержимое (списки, ссылки, описа
 | [DVWA](https://github.com/digininja/DVWA) | Damn Vulnerable Web App |
 | [picoCTF](https://picoctf.org/) | Beginner-friendly CTF |
 
+## 🧑‍💻 Dev Security Tools
+
+| Tool | Description |
+|---|---|
+| [git-secrets](https://github.com/awslabs/git-secrets) | Stops you committing credentials |
+| [truffleHog](https://github.com/trufflesecurity/trufflehog) | Find leaked keys in git history |
+| [Gitleaks](https://github.com/gitleaks/gitleaks) | Fast secret scanner for repos |
+| [Semgrep](https://github.com/semgrep/semgrep) | Code-level security patterns |
+| [Bearer](https://github.com/bearer/bearer) | Data-security SAST |
+| [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) | Vulnerable-dependency scanner |
+| [Syft](https://github.com/anchore/syft) | SBOM generation |
+| [Checkov](https://github.com/bridgecrewio/checkov) | IaC security scanning |
+
+## 🔥 Threat Intelligence
+| Tool | Description |
+|---|---|
+| [MISP](https://github.com/MISP/MISP) | Threat intel sharing platform |
+| [OpenCTI](https://github.com/OpenCTI-Platform/opencti) | Cyber threat intel management |
+| [Yeti](https://github.com/yeti-platform/yeti) | IOC management |
+| [AbuseIPDB](https://www.abuseipdb.com/) | Community IP abuse database |
+
+## 🏠 Home & Small-Office
+| Tool | Description |
+|---|---|
+| [Home Assistant + Frigate](https://frigate.video/) | NVR with AI object detection |
+| [Nextcloud](https://github.com/nextcloud/server) | Self-hosted files replacing Dropbox |
+| [Immich](https://github.com/immich-app/immich) | Self-hosted Google Photos |
+| [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Self-hosted Bitwarden |
+
 ---
 ## Участие
 
