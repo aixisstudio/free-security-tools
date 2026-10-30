@@ -4,117 +4,115 @@
 
 Herramientas de seguridad gratuitas y open source para todos
 
-_El contenido detallado (listas, enlaces, descripciones) está en inglés por mantenibilidad — las secciones siguientes te guían._
+## 🔐 Passwords &gt; Secrets
 
-## 🔐 Passwords & Secrets
-
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [KeePassXC](https://github.com/keepassxreboot/keepassxc) | Offline password manager — the community standard |
-| [Bitwarden](https://github.com/bitwarden) | Full-stack password manager you can self-host |
-| [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Lightweight Rust Bitwarden-compatible server |
-| [pass](https://www.passwordstore.org/) | The Unix password manager — gpg + git |
-| [age](https://github.com/FiloSottile/age) | Modern, simple file encryption |
-| [GnuPG](https://gnupg.org/) | The classic OpenPGP suite |
+Silencio [KeePassXC] (https://github.com/keepassxreboot/keepassxc) Silencio Administrador de contraseñas fuera de línea — el estándar comunitario ←
+Silencio [Bitwarden] (https://github.com/bitwarden) Silencio Administrador de contraseñas de pila completa que usted puede hospedarse a sí mismo
+Silencio [Vaultwarden] (https://github.com/dani-garcia/vaultwarden)
+Silencio [pass] (https://www.passwordstore.org/) Silencio El gestor de contraseña Unix — gpg + git Silencio
+Silencio [age] (https://github.com/FiloSottile/age)
+[GnuPG] (https://gnupg.org/) La clásica suite OpenPGP Silencio
 
 ## 📱 Two-Factor Auth
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [Aegis](https://github.com/beemdevelopment/Aegis) | Open-source Android 2FA app |
-| [Ente Auth](https://github.com/ente-io/ente) | End-to-end encrypted authenticator |
-| [2FAS](https://github.com/twofas) | Free authenticator for iOS/Android |
+Silencio [Aegis] (https://github.com/beemdevelopment/Aegis)
+Silencio [Ente Auth] (https://github.com/ente-io/ente)
+Silencio [2FAS] (https://github.com/twofas)
 
-## 🛡️ Endpoint & Malware Defense
+Endpoint &quot; Malware Defense
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [ClamAV](https://github.com/Cisco-Talos/clamav) | Open-source antivirus engine |
-| [YARA](https://github.com/VirusTotal/yara) | Pattern-matching for malware identification |
-| [Lynis](https://github.com/CISOfy/lynis) | System hardening auditor |
-| [OpenSCAP](https://github.com/OpenSCAP/openscap) | Security compliance scanner |
-| [Chkrootkit](https://github.com/Magentah/chkrootkit) | Local rootkit detection |
+Silencio [ClamAV] (https://github.com/Cisco-Talos/clamav) Silencio Motor antivirus de código abierto
+confidencialidad [YARA](https://github.com/VirusTotal/yara)
+[Lynis] (https://github.com/CISOfy/lynis)
+Silencio [OpenSCAP] (https://github.com/OpenSCAP/openscap)
+Silencio [Chkrootkit] (https://github.com/Magentah/chkrootkit)
 
-## 🌐 Network Security
+## 🌐 Red Security
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [Snitch](https://github.com/aixisstudio/Snitch) | App firewall — see & block every connection per-process, Sigma rules, 8 UI languages |
-| [Wireshark](https://gitlab.com/wireshark/wireshark) | Protocol analyzer |
-| [Nmap](https://github.com/nmap/nmap) | Network discovery & port scanning |
-| [Zeek](https://github.com/zeek/zeek) | Network security monitor |
-| [CrowdSec](https://github.com/crowdsecurity/crowdsec) | Community-driven IPS |
-| [Pi-hole](https://github.com/pi-hole/pi-hole) | Network-wide tracker blocking |
+Silencio [Snitch] (https://github.com/aixisstudio/Snitch) Silencio App firewall — ver &quot; bloquear cada conexión por proceso, reglas de Sigma, 8 idiomas de la UI
+[Wireshark] (https://gitlab.com/wireshark/wireshark)
+Silencio [Nmap](https://github.com/nmap/nmap)
+[Zeek] (https://github.com/zeek/zeek)
+Silencio [CrowdSec] (https://github.com/crowdsecurity/crowdsec)
+Silencio [Pi-hole] (https://github.com/pi-hole/pi-hole)
 
-## 🔎 Vulnerability Assessment
+Evaluación de la vulnerabilidad
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [OpenVAS / GVM](https://github.com/greenbone/openvas-scanner) | Full vulnerability scanner |
-| [Nuclei](https://github.com/projectdiscovery/nuclei) | Fast template-based scanner |
-| [Nikto](https://github.com/sullo/nikto) | Web server scanner |
-| [ZAP](https://github.com/zaproxy/zaproxy) | OWASP web app security proxy |
-| [sqlmap](https://github.com/sqlmapproject/sqlmap) | SQL injection automation |
-| [grype](https://github.com/anchore/grype) | Container & filesystem vuln scanner |
-| [trivy](https://github.com/aquasecurity/trivy) | All-in-one scanner (images, IaC, repos) |
+Silencio [OpenVAS / GVM] (https://github.com/greenbone/openvas-scanner)
+Silencio [Nuclei] (https://github.com/projectdiscovery/nuclei)
+confidencialidad [Nikto](https://github.com/sullo/nikto)
+Silencio [ZAP] (https://github.com/zaproxy/zaproxy)
+Silencio [sqlmap] (https://github.com/sqlmapproject/sqlmap)
+Silencio [grype] (https://github.com/anchore/grype)
+Silencio [trivy] (https://github.com/aquasecurity/trivy)
 
-## 🔑 Crypto & Anonymity
+## 🔑 Crypto &gt; Anonymity
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [VeraCrypt](https://veracrypt.fr) | Disk encryption (TrueCrypt successor) |
-| [Tor Browser](https://www.torproject.org/) | Anonymous browsing |
-| [Tails](https://tails.net/) | Amnesic incognito live OS |
-| [Signal](https://github.com/signalapp) | Private messenger |
-| [Cryptomator](https://github.com/cryptomator/cryptomator) | Client-side cloud encryption |
+Silencio [VeraCrypt] (https://veracrypt.fr) Silencio Encriptación de disco (Sucesor de Truco)
+Silencio [Tor Browser] (https://www.torproject.org/)
+[Tails] (https://tails.net/)
+[Señal] (https://github.com/signalapp)
+confidencialidad [Cryptomator] (https://github.com/cryptomator/cryptomator)
 
-## 🧪 Sandboxing & Analysis
+## 🧪 Sandboxing &amp; Analysis
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [Any.Run community](https://any.run/) | Interactive malware sandbox |
-| [CAPEv2](https://github.com/kevoreilly/CAPEv2) | Self-hosted malware sandbox |
-| [pestudio](https://www.winitor.com/) | Static malware analysis for PE files |
-| [Ghidra](https://github.com/NationalSecurityAgency/ghidra) | NSA's reverse-engineering suite |
+[Any. Corre la comunidad](https://any.run/) Silencio Interactive malware sandbox
+Silencio [CAPEv2] (https://github.com/kevoreilly/CAPEv2)
+confidencialidad [pestudio](https://www.winitor.com/) Silencio Análisis de malware para archivos PE
+Silencio [Ghidra] (https://github.com/NationalSecurityAgency/ghidra)
 
-## 🎓 Training Grounds
+##  tenderos de entrenamiento
 
-| Platform | Description |
+Silencio Plataforma Silencioso Descripción
 |---|---|
-| [HackTheBox](https://www.hackthebox.com/) | Hacking labs & challenges |
-| [TryHackMe](https://tryhackme.com/) | Guided security training rooms |
-| [OWASP Juice Shop](https://github.com/juice-shop/juice-shop) | Deliberately vulnerable web app |
-| [DVWA](https://github.com/digininja/DVWA) | Damn Vulnerable Web App |
-| [picoCTF](https://picoctf.org/) | Beginner-friendly CTF |
+Silencio [HackTheBox] (https://www.hackthebox.com/)
+Silencio [TryHackMe] (https://tryhackme.com/)
+Silencio [OWASP Juice Shop] (https://github.com/juice-shop/juice-shop)
+Silencio [DVWA] (https://github.com/digininja/DVWA)
+[picoCTF] (https://picoctf.org/)
 
-## 🧑‍💻 Dev Security Tools
+Herramientas de seguridad Dev
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [git-secrets](https://github.com/awslabs/git-secrets) | Stops you committing credentials |
-| [truffleHog](https://github.com/trufflesecurity/trufflehog) | Find leaked keys in git history |
-| [Gitleaks](https://github.com/gitleaks/gitleaks) | Fast secret scanner for repos |
-| [Semgrep](https://github.com/semgrep/semgrep) | Code-level security patterns |
-| [Bearer](https://github.com/bearer/bearer) | Data-security SAST |
-| [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) | Vulnerable-dependency scanner |
-| [Syft](https://github.com/anchore/syft) | SBOM generation |
-| [Checkov](https://github.com/bridgecrewio/checkov) | IaC security scanning |
+Silencio [git-secrets] (https://github.com/awslabs/git-secrets)
+Silencio [truffleHog] (https://github.com/trufflesecurity/trufflehog) Silencio Encontrar las llaves filtradas en la historia de la circunferencia
+Silencio [Gitleaks] (https://github.com/gitleaks/gitleaks)
+Silencio [Semgrep] (https://github.com/semgrep/semgrep)
+[Bearer] (https://github.com/bearer/bearer)
+Silencio [OWASP Dependency-Check] (https://owasp.org/www-project-dependency-check/)
+[Syft] (https://github.com/anchore/syft)
+Silencio [Checkov] (https://github.com/bridgecrewio/checkov)
 
 ## 🔥 Threat Intelligence
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [MISP](https://github.com/MISP/MISP) | Threat intel sharing platform |
-| [OpenCTI](https://github.com/OpenCTI-Platform/opencti) | Cyber threat intel management |
-| [Yeti](https://github.com/yeti-platform/yeti) | IOC management |
-| [AbuseIPDB](https://www.abuseipdb.com/) | Community IP abuse database |
+[MISP](https://github.com/MISP/MISP)
+Silencio [OpenCTI] (https://github.com/OpenCTI-Platform/opencti)
+[Yeti] (https://github.com/yeti-platform/yeti)
+Silencio [AbuseIPDB] (https://www.abuseipdb.com/)
 
-## 🏠 Home & Small-Office
-| Tool | Description |
+## ⋅ Home &gt; Small-Office
+← Herramienta Silencioso
 |---|---|
-| [Home Assistant + Frigate](https://frigate.video/) | NVR with AI object detection |
-| [Nextcloud](https://github.com/nextcloud/server) | Self-hosted files replacing Dropbox |
-| [Immich](https://github.com/immich-app/immich) | Self-hosted Google Photos |
-| [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Self-hosted Bitwarden |
+Silencio [Home Assistant + Frigate] (https://frigate.video/) Silencio NVR con detección de objetos AI
+Silencio [Nextcloud] (https://github.com/nextcloud/server) ← Archivos auto-anfitrionos reemplazando Dropbox Silencio
+Silencio [Immich] (https://github.com/immich-app/immich) Silencio Google Fotos auto-anfitrionas
+[Vaultwarden] (https://github.com/dani-garcia/vaultwarden)
 
 ---
 ## Contribuir
