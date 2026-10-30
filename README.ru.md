@@ -4,117 +4,115 @@
 
 Бесплатные open-source инструменты безопасности для всех
 
-_Подробное содержимое (списки, ссылки, описания) ведётся на английском — разделы ниже помогут сориентироваться._
+##Пароли и секреты
 
-## 🔐 Passwords & Secrets
-
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [KeePassXC](https://github.com/keepassxreboot/keepassxc) | Offline password manager — the community standard |
-| [Bitwarden](https://github.com/bitwarden) | Full-stack password manager you can self-host |
-| [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Lightweight Rust Bitwarden-compatible server |
-| [pass](https://www.passwordstore.org/) | The Unix password manager — gpg + git |
-| [age](https://github.com/FiloSottile/age) | Modern, simple file encryption |
-| [GnuPG](https://gnupg.org/) | The classic OpenPGP suite |
+| [KeePassXC] (https://github.com/keepassxreboot/keepassxc) | Оффлайн менеджер паролей — стандарт сообщества |
+| [Bitwarden] (https://github.com/bitwarden) | Менеджер паролей полного стека, который вы можете самостоятельно разместить |
+[Vaultwarden] (https://github.com/dani-garcia/vaultwarden) | Легкий Rust Bitwarden-совместимый сервер
+| [pass] (https://www.passwordstore.org/) | Менеджер паролей Unix — gpg + git |
+| [age] (https://github.com/FiloSottile/age) | Современное, простое шифрование файлов
+[GnuPG] (https://gnupg.org/) Классический пакет OpenPGP
 
-## 📱 Two-Factor Auth
+Оригинальное название: Two-Factor Auth
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [Aegis](https://github.com/beemdevelopment/Aegis) | Open-source Android 2FA app |
-| [Ente Auth](https://github.com/ente-io/ente) | End-to-end encrypted authenticator |
-| [2FAS](https://github.com/twofas) | Free authenticator for iOS/Android |
+| [Aegis] (https://github.com/beemdevelopment/Aegis) | Приложение Android 2FA с открытым исходным кодом
+[Ente Auth] (https://github.com/ente-io/ente) | Сквозной зашифрованный аутентификатор |
+[2FAS] (https://github.com/twofas) Бесплатный аутентификатор для iOS / Android
 
-## 🛡️ Endpoint & Malware Defense
+Оригинальное название: Endpoint & Malware Defense
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [ClamAV](https://github.com/Cisco-Talos/clamav) | Open-source antivirus engine |
-| [YARA](https://github.com/VirusTotal/yara) | Pattern-matching for malware identification |
-| [Lynis](https://github.com/CISOfy/lynis) | System hardening auditor |
-| [OpenSCAP](https://github.com/OpenSCAP/openscap) | Security compliance scanner |
-| [Chkrootkit](https://github.com/Magentah/chkrootkit) | Local rootkit detection |
+| [ClamAV](https://github.com/Cisco-Talos/clamav) | Антивирусный движок с открытым исходным кодом |
+[YARA] (https://github.com/VirusTotal/yara) | Соответствие шаблонам для идентификации вредоносных программ |
+[Lynis] (https://github.com/CISOfy/lynis) | Аудитор закалки системы
+[OpenSCAP] (https://github.com/OpenSCAP/openscap) | Сканер соответствия требованиям безопасности
+[Chkrootkit] (https://github.com/Magentah/chkrootkit) | Обнаружение локальных руткитов
 
-## 🌐 Network Security
+###Сетевая безопасность
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [Snitch](https://github.com/aixisstudio/Snitch) | App firewall — see & block every connection per-process, Sigma rules, 8 UI languages |
-| [Wireshark](https://gitlab.com/wireshark/wireshark) | Protocol analyzer |
-| [Nmap](https://github.com/nmap/nmap) | Network discovery & port scanning |
-| [Zeek](https://github.com/zeek/zeek) | Network security monitor |
-| [CrowdSec](https://github.com/crowdsecurity/crowdsec) | Community-driven IPS |
-| [Pi-hole](https://github.com/pi-hole/pi-hole) | Network-wide tracker blocking |
+| [Snitch] (https://github.com/aixisstudio/Snitch) | Брандмауэр приложений — смотрите и блокируйте каждое соединение на процесс, правила Sigma, 8 языков пользовательского интерфейса |
+[Wireshark] (https://gitlab.com/wireshark/wireshark) | Анализатор протоколов
+| [Nmap] (https://github.com/nmap/nmap) | Открытие сети и сканирование портов
+[Zeek] (https://github.com/zeek/zeek) | Монитор сетевой безопасности
+[CrowdSec] (https://github.com/crowdsecurity/crowdsec) | IPS, управляемый сообществом
+[Pi-hole] (https://github.com/pi-hole/pi-hole) | Блокировка сетевого трекера
 
-## 🔎 Vulnerability Assessment
+##   Оценка уязвимости
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [OpenVAS / GVM](https://github.com/greenbone/openvas-scanner) | Full vulnerability scanner |
-| [Nuclei](https://github.com/projectdiscovery/nuclei) | Fast template-based scanner |
-| [Nikto](https://github.com/sullo/nikto) | Web server scanner |
-| [ZAP](https://github.com/zaproxy/zaproxy) | OWASP web app security proxy |
-| [sqlmap](https://github.com/sqlmapproject/sqlmap) | SQL injection automation |
-| [grype](https://github.com/anchore/grype) | Container & filesystem vuln scanner |
-| [trivy](https://github.com/aquasecurity/trivy) | All-in-one scanner (images, IaC, repos) |
+[OpenVAS / GVM] (https://github.com/greenbone/openvas-scanner) | Полный сканер уязвимостей
+| [Nuclei] (https://github.com/projectdiscovery/nuclei) | Быстрый шаблонный сканер |
+[Nikto] (https://github.com/sullo/nikto) | Сканер веб-сервера
+| [ZAP] (https://github.com/zaproxy/zaproxy) | Прокси-сервер безопасности веб-приложения OWASP
+| [sqlmap] (https://github.com/sqlmapproject/sqlmap) | Автоматизация SQL-инъекций
+| [grype] (https://github.com/anchore/grype) | Сканер контейнеров и файловых систем
+| [trivy] (https://github.com/aquasecurity/trivy) | Все-в-одном сканере (изображения, IaC, repos) |
 
-## 🔑 Crypto & Anonymity
+##Крипто и анонимность
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [VeraCrypt](https://veracrypt.fr) | Disk encryption (TrueCrypt successor) |
-| [Tor Browser](https://www.torproject.org/) | Anonymous browsing |
-| [Tails](https://tails.net/) | Amnesic incognito live OS |
-| [Signal](https://github.com/signalapp) | Private messenger |
-| [Cryptomator](https://github.com/cryptomator/cryptomator) | Client-side cloud encryption |
+[VeraCrypt] (https://veracrypt.fr) | Шифрование диска (преемник TrueCrypt)
+[Tor Browser] (https://www.torproject.org/) | Анонимный просмотр
+https://tails.net/ - Amnesic Incognito Live OS
+[Сигнал] [https://github.com/signalapp] [Частный мессенджер]
+[Криптоматор] (https://github.com/cryptomator/cryptomator) | Облачное шифрование на стороне клиента
 
-## 🧪 Sandboxing & Analysis
+## песочница и анализ
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [Any.Run community](https://any.run/) | Interactive malware sandbox |
-| [CAPEv2](https://github.com/kevoreilly/CAPEv2) | Self-hosted malware sandbox |
-| [pestudio](https://www.winitor.com/) | Static malware analysis for PE files |
-| [Ghidra](https://github.com/NationalSecurityAgency/ghidra) | NSA's reverse-engineering suite |
+[Любой.] Run community [https://any.run/] | Интерактивная песочница вредоносных программ
+| [CAPEv2](https://github.com/kevoreilly/CAPEv2) | Самоходная песочница вредоносных программ |
+| [pestudio](https://www.winitor.com/) | Статический анализ вредоносных программ для файлов PE |
+[Гидра] (https://github.com/NationalSecurityAgency/ghidra) | Обратно-инженерный комплекс АНБ |
 
-## 🎓 Training Grounds
+###Тренировки
 
-| Platform | Description |
+| Платформа | Описание
 |---|---|
-| [HackTheBox](https://www.hackthebox.com/) | Hacking labs & challenges |
-| [TryHackMe](https://tryhackme.com/) | Guided security training rooms |
-| [OWASP Juice Shop](https://github.com/juice-shop/juice-shop) | Deliberately vulnerable web app |
-| [DVWA](https://github.com/digininja/DVWA) | Damn Vulnerable Web App |
-| [picoCTF](https://picoctf.org/) | Beginner-friendly CTF |
+[HackTheBox] (https://www.hackthebox.com/) | Хакерские лаборатории и проблемы
+[TryHackMe] (https://tryhackme.com/) | Учебные комнаты по безопасности
+[OWASP Juice Shop] (https://github.com/juice-shop/juice-shop) | Умышленно уязвимое веб-приложение
+[DVWA] (https://github.com/digininja/DVWA) | Damn Vulnerable Web App
+[picoCTF] (https://picoctf.org/) | CTF для начинающих
 
-## 🧑‍💻 Dev Security Tools
+Инструменты безопасности Dev Security Tools
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [git-secrets](https://github.com/awslabs/git-secrets) | Stops you committing credentials |
-| [truffleHog](https://github.com/trufflesecurity/trufflehog) | Find leaked keys in git history |
-| [Gitleaks](https://github.com/gitleaks/gitleaks) | Fast secret scanner for repos |
-| [Semgrep](https://github.com/semgrep/semgrep) | Code-level security patterns |
-| [Bearer](https://github.com/bearer/bearer) | Data-security SAST |
-| [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) | Vulnerable-dependency scanner |
-| [Syft](https://github.com/anchore/syft) | SBOM generation |
-| [Checkov](https://github.com/bridgecrewio/checkov) | IaC security scanning |
+[Гит-секреты] (https://github.com/awslabs/git-secrets) | Остановка ваших учетных данных
+[truffleHog] (https://github.com/trufflesecurity/trufflehog) | Найти просочившиеся ключи в истории git
+| [Gitleaks] (https://github.com/gitleaks/gitleaks) | Быстро секретный сканер для репо |
+[Semgrep] (https://github.com/semgrep/semgrep) | Шаблоны безопасности на уровне кода
+[Bearer] (https://github.com/bearer/bearer) | Безопасность данных
+[OWASP Dependency-Check] (https://owasp.org/www-project-dependency-check/) | Сканер уязвимой зависимости
+[Syft] [https://github.com/anchore/syft] [поколение SBOM]
+[Чекков] (https://github.com/bridgecrewio/checkov) | Сканирование безопасности IaC
 
-## 🔥 Threat Intelligence
-| Tool | Description |
+###Угроза разведки
+| Инструмент | Описание
 |---|---|
-| [MISP](https://github.com/MISP/MISP) | Threat intel sharing platform |
-| [OpenCTI](https://github.com/OpenCTI-Platform/opencti) | Cyber threat intel management |
-| [Yeti](https://github.com/yeti-platform/yeti) | IOC management |
-| [AbuseIPDB](https://www.abuseipdb.com/) | Community IP abuse database |
+[MISP] (https://github.com/MISP/MISP) | Платформа обмена информацией об угрозах
+[OpenCTI] (https://github.com/OpenCTI-Platform/opencti) | Управление киберугрозами
+[Yeti] (https://github.com/yeti-platform/yeti) | Управление МОК |
+[AbuseIPDB] (https://www.abuseipdb.com/) | База данных о злоупотреблении IP сообщества
 
-## 🏠 Home & Small-Office
-| Tool | Description |
+## - Дом и малый офис
+| Инструмент | Описание
 |---|---|
-| [Home Assistant + Frigate](https://frigate.video/) | NVR with AI object detection |
-| [Nextcloud](https://github.com/nextcloud/server) | Self-hosted files replacing Dropbox |
-| [Immich](https://github.com/immich-app/immich) | Self-hosted Google Photos |
-| [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Self-hosted Bitwarden |
+[Home Assistant + Frigate] (https://frigate.video/) | NVR с обнаружением объектов ИИ
+| [Nextcloud] (https://github.com/nextcloud/server) | Файлы с самостоятельным размещением, заменяющие Dropbox |
+[Иммих] (https://github.com/immich-app/immich) | Самостоятельно размещенные фотографии Google
+[Vaultwarden] (https://github.com/dani-garcia/vaultwarden) | Самостоятельный Bitwarden |
 
 ---
 ## Участие
