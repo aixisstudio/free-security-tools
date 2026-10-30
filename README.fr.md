@@ -4,117 +4,115 @@
 
 Des outils de sécurité libres et gratuits pour tous
 
-_Le contenu détaillé (listes, liens, descriptions) est en anglais pour rester maintenable — les sections ci-dessous te guident._
+Mot de passe et secrets
 
-## 🔐 Passwords & Secrets
-
-| Tool | Description |
+Description de l'outil
 |---|---|
-| [KeePassXC](https://github.com/keepassxreboot/keepassxc) | Offline password manager — the community standard |
-| [Bitwarden](https://github.com/bitwarden) | Full-stack password manager you can self-host |
-| [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Lightweight Rust Bitwarden-compatible server |
-| [pass](https://www.passwordstore.org/) | The Unix password manager — gpg + git |
-| [age](https://github.com/FiloSottile/age) | Modern, simple file encryption |
-| [GnuPG](https://gnupg.org/) | The classic OpenPGP suite |
+[KeePassXC](https://github.com/keepassxreboot/keepassxc)= Gestionnaire de mots de passe hors ligne — le standard communautaire=
+[Bitwarden](https://github.com/bitwarden)=Le gestionnaire de mots de passe complet vous pouvez vous-même
+[Vaultwarden](https://github.com/dani-garcia/vaultwarden)= Serveur compatible Bitwarden léger
+Le gestionnaire de mots de passe Unix — gpg + git
+[age](https://github.com/FiloSottile/age)
+[GnuPG] (https://gnupg.org/) La suite classique OpenPGP
 
-## 📱 Two-Factor Auth
+Auth
 
-| Tool | Description |
+Description de l'outil
 |---|---|
-| [Aegis](https://github.com/beemdevelopment/Aegis) | Open-source Android 2FA app |
-| [Ente Auth](https://github.com/ente-io/ente) | End-to-end encrypted authenticator |
-| [2FAS](https://github.com/twofas) | Free authenticator for iOS/Android |
+[Aegis](https://github.com/beemdevelopment/Aegis)= Appli Open-source Android 2FA
+[Enter Auth](https://github.com/ente-io/ente)
+Authentificateur gratuit pour iOS/Android
 
-## 🛡️ Endpoint & Malware Defense
+Point de fin et défense des logiciels malveillants
 
-| Tool | Description |
+Description de l'outil
 |---|---|
-| [ClamAV](https://github.com/Cisco-Talos/clamav) | Open-source antivirus engine |
-| [YARA](https://github.com/VirusTotal/yara) | Pattern-matching for malware identification |
-| [Lynis](https://github.com/CISOfy/lynis) | System hardening auditor |
-| [OpenSCAP](https://github.com/OpenSCAP/openscap) | Security compliance scanner |
-| [Chkrootkit](https://github.com/Magentah/chkrootkit) | Local rootkit detection |
+[ClamAV] (https://github.com/Cisco-Talos/clamav)
+[YARA](https://github.com/VirusTotal/yara)
+[Lynis] (https://github.com/CISOfy/lynis)
+[OpenSCAP] (https://github.com/OpenSCAP/openscap)
+[Chkorootkit](https://github.com/Magentah/chkrootkit)
 
-## 🌐 Network Security
+Sécurité du réseau
 
-| Tool | Description |
+Description de l'outil
 |---|---|
-| [Snitch](https://github.com/aixisstudio/Snitch) | App firewall — see & block every connection per-process, Sigma rules, 8 UI languages |
-| [Wireshark](https://gitlab.com/wireshark/wireshark) | Protocol analyzer |
-| [Nmap](https://github.com/nmap/nmap) | Network discovery & port scanning |
-| [Zeek](https://github.com/zeek/zeek) | Network security monitor |
-| [CrowdSec](https://github.com/crowdsecurity/crowdsec) | Community-driven IPS |
-| [Pi-hole](https://github.com/pi-hole/pi-hole) | Network-wide tracker blocking |
+[Snitch](https://github.com/aixisstudio/Snitch)=Pare-feu de l'application – voir et bloquer chaque connexion par processus, règles Sigma, 8 langages d'interface utilisateur=
+[Wireshark] (https://gitlab.com/wireshark/wireshark)
+[Nmap](https://github.com/nmap/nmap)
+[Zeek] (https://github.com/zeek/zeek)
+[CrowdSec](https://github.com/crowdsecurity/crowdsec)
+[Pi-hole](https://github.com/pi-hole/pi-hole)
 
-## 🔎 Vulnerability Assessment
+Évaluation de la vulnérabilité
 
-| Tool | Description |
+Description de l'outil
 |---|---|
-| [OpenVAS / GVM](https://github.com/greenbone/openvas-scanner) | Full vulnerability scanner |
-| [Nuclei](https://github.com/projectdiscovery/nuclei) | Fast template-based scanner |
-| [Nikto](https://github.com/sullo/nikto) | Web server scanner |
-| [ZAP](https://github.com/zaproxy/zaproxy) | OWASP web app security proxy |
-| [sqlmap](https://github.com/sqlmapproject/sqlmap) | SQL injection automation |
-| [grype](https://github.com/anchore/grype) | Container & filesystem vuln scanner |
-| [trivy](https://github.com/aquasecurity/trivy) | All-in-one scanner (images, IaC, repos) |
+[OpenVAS / GVM](https://github.com/greenbone/openvas-scanner)
+[Nuclei](https://github.com/projectdiscovery/nuclei)
+[Nikto] (https://github.com/sullo/nikto)
+[ZAP](https://github.com/zaproxy/zaproxy)= Proxy de sécurité de l'application web OWASP
+[sqlmap] (https://github.com/sqlmapproject/sqlmap)
+[grippe](https://github.com/anchore/grype)
+[trivy](https://github.com/aquasecurity/trivy)= Scanner tout-en-un (images, IaC, repos)=
 
-## 🔑 Crypto & Anonymity
+Crypto & Anonymité
 
-| Tool | Description |
+Description de l'outil
 |---|---|
-| [VeraCrypt](https://veracrypt.fr) | Disk encryption (TrueCrypt successor) |
-| [Tor Browser](https://www.torproject.org/) | Anonymous browsing |
-| [Tails](https://tails.net/) | Amnesic incognito live OS |
-| [Signal](https://github.com/signalapp) | Private messenger |
-| [Cryptomator](https://github.com/cryptomator/cryptomator) | Client-side cloud encryption |
+[VeraCrypt](https://veracrypt.fr)= Chiffrement des disques (TrueCrypt successeur)=
+[Tor Browser] (https://www.torproject.org/)
+[Tailles](https://tails.net/)
+[Signal] (https://github.com/signalapp)
+[Cryptomator](https://github.com/cryptomator/cryptomator)
 
-## 🧪 Sandboxing & Analysis
+## Ohio Sandboxing & Analyse
 
-| Tool | Description |
+Description de l'outil
 |---|---|
-| [Any.Run community](https://any.run/) | Interactive malware sandbox |
-| [CAPEv2](https://github.com/kevoreilly/CAPEv2) | Self-hosted malware sandbox |
-| [pestudio](https://www.winitor.com/) | Static malware analysis for PE files |
-| [Ghidra](https://github.com/NationalSecurityAgency/ghidra) | NSA's reverse-engineering suite |
+N'importe qui. Exécuter la communauté](https://any.run/)
+[CAPEv2] (https://github.com/kevoreilly/CAPEv2)
+[pestudio](https://www.winitor.com/)= Analyse statique des logiciels malveillants pour les fichiers PE=
+[Ghidra] (https://github.com/NationalSecurityAgency/ghidra)
 
-## 🎓 Training Grounds
+Les terrains d'entraînement
 
-| Platform | Description |
+Description de la plate-forme
 |---|---|
-| [HackTheBox](https://www.hackthebox.com/) | Hacking labs & challenges |
-| [TryHackMe](https://tryhackme.com/) | Guided security training rooms |
-| [OWASP Juice Shop](https://github.com/juice-shop/juice-shop) | Deliberately vulnerable web app |
-| [DVWA](https://github.com/digininja/DVWA) | Damn Vulnerable Web App |
-| [picoCTF](https://picoctf.org/) | Beginner-friendly CTF |
+[HackTheBox] (https://www.hackthebox.com/)
+[TryHackMe] (https://tryhackme.com/)
+Une application web délibérément vulnérable
+[DVWA] (https://github.com/digininja/DVWA)
+[picoCTF](https://picoctf.org/)
 
-## 🧑‍💻 Dev Security Tools
+Outils de sécurité du Dev
 
-| Tool | Description |
+Description de l'outil
 |---|---|
-| [git-secrets](https://github.com/awslabs/git-secrets) | Stops you committing credentials |
-| [truffleHog](https://github.com/trufflesecurity/trufflehog) | Find leaked keys in git history |
-| [Gitleaks](https://github.com/gitleaks/gitleaks) | Fast secret scanner for repos |
-| [Semgrep](https://github.com/semgrep/semgrep) | Code-level security patterns |
-| [Bearer](https://github.com/bearer/bearer) | Data-security SAST |
-| [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) | Vulnerable-dependency scanner |
-| [Syft](https://github.com/anchore/syft) | SBOM generation |
-| [Checkov](https://github.com/bridgecrewio/checkov) | IaC security scanning |
+[secrets-git](https://github.com/awslabs/git-secrets)
+[truffleHog](https://github.com/trufflesecurity/trufflehog)= Trouver des clés dans l'historique git
+[Gitleaks] (https://github.com/gitleaks/gitleaks)
+[Semgrep](https://github.com/semgrep/semgrep)
+[Bearer](https://github.com/bearer/bearer)= Sécurité des données
+[Vérification de la dépendance de l'OWASP] (https://owasp.org/www-project-dependency-check/)
+[Syft] (https://github.com/anchore/syft)
+[Checkov] (https://github.com/bridgecrewio/checkov)
 
-## 🔥 Threat Intelligence
-| Tool | Description |
+Renseignements sur les menaces
+Description de l'outil
 |---|---|
-| [MISP](https://github.com/MISP/MISP) | Threat intel sharing platform |
-| [OpenCTI](https://github.com/OpenCTI-Platform/opencti) | Cyber threat intel management |
-| [Yeti](https://github.com/yeti-platform/yeti) | IOC management |
-| [AbuseIPDB](https://www.abuseipdb.com/) | Community IP abuse database |
+[MISP](https://github.com/MISP/MISP)= Plateforme de partage d'informations de menace
+[OpenCTI](https://github.com/OpenCTI-Platform/opencti)= Gestion de la cybermenace
+[Yéti](https://github.com/yeti-platform/yeti)
+[AbuseIPDB](https://www.abuseipdb.com/)= Base de données communautaire sur les abus de propriété intellectuelle
 
-## 🏠 Home & Small-Office
-| Tool | Description |
+La maison et les petits bureaux
+Description de l'outil
 |---|---|
-| [Home Assistant + Frigate](https://frigate.video/) | NVR with AI object detection |
-| [Nextcloud](https://github.com/nextcloud/server) | Self-hosted files replacing Dropbox |
-| [Immich](https://github.com/immich-app/immich) | Self-hosted Google Photos |
-| [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Self-hosted Bitwarden |
+[Home Assistant + Frigate] (https://frigate.video/)
+[Nextcloud](https://github.com/nextcloud/server)= Fichiers auto-organisés remplaçant Dropbox=
+[Immich](https://github.com/immich-app/immich)= Photos Google auto-accueillées
+[Vaultwarden] (https://github.com/dani-garcia/vaultwarden)
 
 ---
 ## Contribuer
